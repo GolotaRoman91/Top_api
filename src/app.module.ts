@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { TopPageModule } from './top-page/top-page.module';
 import { ProductModule } from './product/product.module';
-import { RewiewModule } from './rewiew/rewiew.module';
+import { RewiewModule } from './review/rewiew.module';
 
 @Module({
   imports: [AuthModule, TopPageModule, ProductModule, RewiewModule],
